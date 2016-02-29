@@ -127,7 +127,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #endif
 
 // LED Outputs
-#define LED1_OUTPUT (DIGITALPORT0 | 0)
+#define LED1_OUTPUT (DIGITALPORT5 | 2)
 #ifndef LED1_ON
 #define LED1_ON DIGITALON
 #endif
@@ -171,7 +171,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #endif
 
 // LED Outputs
-#define LED1_OUTPUT (DIGITALPORT0 | 0)
+#define LED1_OUTPUT (DIGITALPORT5 | 2)
 #ifndef LED1_ON
 #define LED1_ON DIGITALON
 #endif
